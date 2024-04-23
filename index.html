@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header desgin -->
+    <header id="home">
+      <div class="container">
+        <nav>
+          <span class="logo"><span>P</span>rashant.</span>
+          <ul id="side-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front end Developer</p>
+          <h1>Hii, I'm <span>Prashant</span> <br />From India</h1>
+        </div>
+      </div>
+    </header>
+    <!-- header desgin -->
+    <!-- about design  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Experienced Full Stack Java Developer with a passion for solving
+              problems in creative ways. As a third-year Computer Science
+              Engineering student, I've participated in several patent
+              procedures with my engineering team and have learned the
+              importance of applying classical strategies to modern-day
+              projects. My focus on front-end development with React and
+              expertise in Git version control allows me to bring innovative
+              solutions to the table. I am looking forward to leveraging my
+              skills and knowledge to contribute to new and exciting
+              opportunities in the field of software development
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>React JS</span><br />Building Responsive
+                  Websites
+                </li>
+                <li>
+                  <span>Core And Advance Java</span><br />Buliding Server-Side Web Applications
+                </li>
+                <li>
+                  <span>Javascript</span><br />Manipulating DOM with Javascript
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li>
+                  <span>YumXpress Application</span><br />Building Responsive
+                  Websites
+                </li>
+                <li>
+                  <span>To Do App</span><br />Buliding Websites with server
+                </li>
+                <li>
+                  <span>The Film Fusion</span><br />Fetching Movie Details with trailor from API
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Bachelor of technology</span><br />CGPA-7.5</li>
+                <li><span>12th</span><br />Percentage-97%</li>
+                <li><span>10th</span><br />Percentage-95%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about design  -->
+    <!-- services  -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              3+ years passionate about web design, creating user-centered
+              experiences that convert. Proven ability to translate client
+              vision into beautiful and functional websites using HTML, CSS, and
+              design best practices.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+              numquam, reiciendis beatae, cumque tempora commodi esse eum
+              possimus placeat nobis ullam.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Software Development</h2>
+            <p>
+              Used Java As prefered programming language for developing softwares and solving real world problems.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services  -->
+
+    <!-- portfolio  -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="portfolio-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>The Film Fusion WebApp</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                magnam cumque totam!
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpg" alt="" />
+            <div class="layer">
+              <h3>YumXpress Application</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                magnam cumque totam!
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>To Do Using React</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                magnam cumque totam!
+              </p>
+              <a href="https://prashantg1234.github.io/my_react_apps/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+    <!-- portfolio  -->
+    <!-- contact  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i><a class="mail" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">itsprashant.gupta01@gmail.com</a></p>
+            <p><i class="fas fa-phone-square-alt"></i>7000589046</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100021113138229" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/The_Showman01" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/prashant-gupta07/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                cols="30"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <input type="submit" value="Send" class="btn btn2" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p>&copy; 2024 Prashant. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <!-- contact  -->
+  </body>
+  <script src="script.js"></script>
+</html>
