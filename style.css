@@ -18,7 +18,7 @@ html {
 
 header {
     width: 100%;
-    background-image: url(images/background.png);
+    background-image: url();
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -386,7 +386,7 @@ nav .fas {
 
 @media only screen and (max-width:600px) {
     #header {
-        background-image: url(images/phone-background.png);
+        background-image: url();
     }
 
     .header-text {
